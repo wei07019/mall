@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<style type="text/css">
+
+		#backgroundId1{
+			border: 10px solid blue;
+			background: red;
+			width: 500px;
+			height: 300px;
+			background-image: url(bg.gif);
+			background-size: 30% 100%;
+			background-repeat: no-repeat;
+			padding:20px;
+		}
+
+		#backgroundId2{
+			border: 10px solid blue;
+			background: red;
+			width: 500px;
+			height: 300px;
+			background-image: url(bg.gif);
+			background-size: 30% 100%;
+			background-repeat: no-repeat;
+			background-origin:border-box;
+			padding:20px;
+		}
+
+		#backgroundId3 {
+			border: 10px solid blue;
+			background: red;
+			width: 500px;
+			height: 300px;
+			background-image: url(bg.gif),url(border.png) ;
+			background-size: 30% 100%;
+			background-repeat: no-repeat;
+			background-origin:border-box;
+			padding:20px;
+		}
+	</style>
+	<script type="text/javascript">
+	</script>
+</head>
+<body>
+	<div id="backgroundId1">背景图1演示</div>
+	<div id="backgroundId2">背景图2演示</div>
+	<div id="backgroundId3">多背景图</div>
+</body>
+</html>
